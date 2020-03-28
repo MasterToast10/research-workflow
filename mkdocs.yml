@@ -1,0 +1,8 @@
+site_name: Collaborative Research Paper-Writing Workflow
+theme:
+  name: null
+  custom_dir: 'cinder'
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Templates: templates.md
