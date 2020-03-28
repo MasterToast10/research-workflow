@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Installation - Collaborative Research Paper-Writing Workflow</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="..">Collaborative Research Paper-Writing Workflow</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Installation</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../templates/">Templates</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="..">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../templates/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#installation">Installation</a></li>
+            <li class="second-level"><a href="#perl">Perl</a></li>
+                
+            <li class="second-level"><a href="#git-source-code-management-scm">Git Source Code Management (SCM)</a></li>
+                
+            <li class="second-level"><a href="#miktex">MikTeX</a></li>
+                
+                <li class="third-level"><a href="#just-enough-tex">Just Enough TeX</a></li>
+            <li class="second-level"><a href="#zotero">Zotero</a></li>
+                
+                <li class="third-level"><a href="#bibliography-management">Bibliography Management</a></li>
+                <li class="third-level"><a href="#browser-support">Browser Support</a></li>
+                <li class="third-level"><a href="#citations-via-biblatex">Citations via BibLaTeX</a></li>
+            <li class="second-level"><a href="#visual-studio-code">Visual Studio Code</a></li>
+                
+                <li class="third-level"><a href="#latex-editing">LaTeX Editing</a></li>
+                <li class="third-level"><a href="#task-management">Task Management</a></li>
+                <li class="third-level"><a href="#source-code-management">Source Code Management</a></li>
+            <li class="second-level"><a href="#finishing-up">Finishing Up</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="installation">Installation</h1>
+<p>A complete installation for the workflow requires the following software to be installed.</p>
+<h2 id="perl">Perl</h2>
+<p>Perl is a requirement for builds via <a href="#latex-workshop-by-james-yu">LaTeX Workshop</a>.
+Perl comes with UNIX-base Operating Systems (e.g Linux and Mac OS), however it does not come preinstalled for Windows, thus, you may install <a href="http://strawberryperl.com/">Strawberry Perl</a> and then type the following in the command line:</p>
+<pre><code>cpan
+notest install Log::Log4perl
+install Log::Dispatch::File
+exit
+</code></pre>
+<p>These are the dependencies for <code>latexindent.pl</code> which formats your <code>.tex</code> files automatically.</p>
+<p>You may also view and download <a href="https://platform.activestate.com/MasterToast10/ActivePerl-5.28-for-str-templates">my personal fork of ActivePerl</a> on ActiveState that is pre-built with the required dependencies for the workflow. <strong>Note: You need an account to download the build.</strong></p>
+<h2 id="git-source-code-management-scm">Git Source Code Management (SCM)</h2>
+<blockquote>
+<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+<p>&mdash; <cite>https://git-scm.com/</cite></p>
+</blockquote>
+<p>Git SCM eases the collaborative editing process by synchronizing changes across connected devices. </p>
+<p>Git SCM is naturally supported by <a href="#visual-studio-code">Visual Studio Code</a>, which makes staging changes, producing commits and fetching changes in a remote repository easy and quick, <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor">accessible with one click</a>.</p>
+<p>Install Git SCM here: <a href="https://git-scm.com/">Official Site</a></p>
+<p>A comprehensive tutorial is available here: <a href="https://git-scm.com/book/en/v2">Pro Git by Scott Chacon and Ben Straub</a></p>
+<h2 id="miktex">MikTeX</h2>
+<p>MikTeX enables you to compile the <a href="../templates">str-templates</a> and compile your modified versions, providing PDF output that is ready-to-print and ready-to-publish.</p>
+<p>Install MikTeX here: <a href="https://miktex.org/">Official Site</a></p>
+<p>A comprehensive tutorial is available here: <a href="http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf">LaTeX for Beginners</a></p>
+<h3 id="just-enough-tex">Just Enough TeX</h3>
+<p>MikTeX ensures that you don't download thousands of bytes of packages you will never use in your lifetime.
+It supports on-the-fly download and installation of packages that are used within TeX documents that you run.</p>
+<h2 id="zotero">Zotero</h2>
+<blockquote>
+<p>Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.</p>
+<p>&mdash; <cite>https://www.zotero.org/</cite></p>
+</blockquote>
+<p>Install Zotero here: <a href="https://www.zotero.org/">Official Site</a></p>
+<p>A comprehensive tutorial is available here: <a href="https://www.zotero.org/static/download/zotero_user_guide.pdf">Zotero User Guide</a></p>
+<h3 id="bibliography-management">Bibliography Management</h3>
+<p>Zotero manages all your references, including publication information as well as the digital copies and notes you have on each reference.</p>
+<h4 id="online-hosting">Online Hosting</h4>
+<p>Zotero provides online hosting to your libraries for free (requires an account).
+You can share your online libraries with other users of the network, thus making collaboration much easier, with shared references between team members.</p>
+<h3 id="browser-support">Browser Support</h3>
+<p>Zotero provides extensions for the most common web browsers available which makes collecting reference information quick and easy.</p>
+<h3 id="citations-via-biblatex">Citations via BibLaTeX</h3>
+<p>Zotero can produce <code>.bib</code> files for citations via BibLaTeX. These citations are automatically added to the bibliography of your document.</p>
+<h4 id="better-bibtex-by-retorquere"><a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX by retorquere</a></h4>
+<p>Better BibTeX optimizes Zotero for producing <code>.bib</code> files, and can update the files automatically should changes be made in the library associated with them.</p>
+<p>A brief tutorial is available here: <a href="http://libguides.rhul.ac.uk/referencing/Zoterolatex">Referencing, Citing, and Structuring Bibliographies</a></p>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<blockquote>
+<p>Free. Built on open source. Runs everywhere.</p>
+<p>&mdash; <cite>https://code.visualstudio.com/</cite></p>
+</blockquote>
+<p>Install Visual Studio Code here: <a href="https://code.visualstudio.com/">Official Site</a></p>
+<p>A comprehensive tutorial is available here: <a href="https://code.visualstudio.com/docs/getstarted/introvideos">Get Started</a></p>
+<h3 id="latex-editing">LaTeX Editing</h3>
+<p>Visual Studio Code supports LaTeX Editing via the following extensions:</p>
+<h4 id="latex-workshop-by-james-yu"><a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop by James Yu</a></h4>
+<p>LaTeX Workshop provides Build/Compile <code>.tex</code> File on Save as well as:
+ - Code Snippets/IntelliSense
+ - Code Linting (e.g. highlighted errors and warnings)</p>
+<h4 id="latex-utilities-by-tecosaur"><a href="https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities">LaTeX Utilities by tecosaur</a></h4>
+<p>LaTeX Utilities provides additional functionality to LaTeX Workshop such as:
+ - Formatted Pastes (e.g. tabulated data from a spreadsheet into a formatted LaTeX table)
+ - Zotero citations (e.g. cited pages)</p>
+<h4 id="ltex-by-julian-valentin"><a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex">LTeX by Julian Valentin</a></h4>
+<p>LTeX uses LanguageTool to provide spelling and grammatical corrections as you type, saving you time for editing typographical errors.
+Do note however that it requires an installation of <a href="https://www.java.com/en/download/">Java 8 or higher</a> and requires other extensions for <a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex-en">English</a> and <a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex-tl">Tagalog</a> Support.</p>
+<h3 id="task-management">Task Management</h3>
+<h4 id="todo-tree-by-gruntfuggly"><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree">Todo Tree by Gruntfuggly</a></h4>
+<p>Todo Tree outlines the TODO comments in your LaTeX code, providing a platform for tracking the progress of the paper-writing, and making sure that you do not miss out on any details.</p>
+<h3 id="source-code-management">Source Code Management</h3>
+<h4 id="git-graph-by-mhutchie"><a href="https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph">Git Graph by mhutchie</a></h4>
+<p>Git Graph provides a visualization of your git repository, enabling you to track changes and revert them if necessary.</p>
+<h2 id="finishing-up">Finishing Up</h2>
+<p>When everything is finally installed, restart your computer to register the changes.</p></div>
+        
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        
+        <hr>
+        <p>
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+        </p>
+
+        
+        
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
