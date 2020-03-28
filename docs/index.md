@@ -3,9 +3,9 @@ A workflow for research paper-writing crafted for efficiency.
 
 ## Setup
 Before using the workflow, the necessary software must be installed.
-The necessary software is provided in the [Installation](../installation) section.
+The necessary software is provided in the [Installation](installation) section.
 The workflow also involves templates which can be used over and over again for multiple research topics.
-Said templates are hosted online via the same workflow and can be accessed through the [Templates](../templates) section.
+Said templates are hosted online via the same workflow and can be accessed through the [Templates](templates) section.
 
 ## The Workflow
 ### Data Collection
@@ -25,7 +25,7 @@ Once the research proposal is accepted, the team can proceed to collecting Empir
 The process varies from field to field, however, the methodology must be closely-tied to the related literature.
 During this time, the team may also add new sources or insights on the references stored in the Group Library.
 ### Collaborative Content Management
-Using GitHub, progress and relevant changes can be stored in the team repository, forked from the [Forkable GitHub Repository](../templates/#forkable-github-repository).
+Using GitHub, progress and relevant changes can be stored in the team repository, forked from the [Forkable GitHub Repository](templates/#forkable-github-repository).
 
 Non-LaTeX information such as the data gathered (e.g. spreadsheets), photo documentation, or important insights may be stored on the team repository.
 Progress on the Research Project itself can be tracked via GitHub, with comment and issue threads.

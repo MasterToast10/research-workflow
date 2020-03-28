@@ -26,7 +26,7 @@ Install Git SCM here: [Official Site](https://git-scm.com/)
 A comprehensive tutorial is available here: [Pro Git by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2)
 
 ## MikTeX
-MikTeX enables you to compile the [str-templates](../templates) and compile your modified versions, providing PDF output that is ready-to-print and ready-to-publish.
+MikTeX enables you to compile the [str-templates](templates) and compile your modified versions, providing PDF output that is ready-to-print and ready-to-publish.
 
 Install MikTeX here: [Official Site](https://miktex.org/)
 
