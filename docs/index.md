@@ -31,7 +31,7 @@ Non-LaTeX information such as the data gathered (e.g. spreadsheets), photo docum
 Progress on the Research Project itself can be tracked via GitHub, with comment and issue threads.
 Project Boards can be set up for each logical division of the Research Project, noting the progress of each issue.
 
-The structure of the repository tree will be as follows: one master branch (for the most publishable output), and one developmental branch for each team member.
+The structure of the repository tree will be as follows: one master branch (for the most publishable output), and one developmental branch for each team member (the research teacher and adviser are also considered team members).
 In each developmental branch, the respective team member may make unlimited changes to the files and [commits](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) to the branch.
 After making changes, the team member may make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
