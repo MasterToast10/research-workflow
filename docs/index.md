@@ -50,7 +50,7 @@ The GitHub Repository can also double as a daily journal, since important events
 ### Content Writing
 Using LaTeX, the team can write without regard for the format, as the template ensures that the papers will always follow the format.
 The combination of Zotero and LaTeX produces automatic citations and bibliography, removing the need to copy and paste.
-This means that the team can focus more on writing content, instead of on minor details such as formatting content and citations/bibliography.
+This means that the team can focus more on writing content, instead of on minor details such as formatting content and citations/bibliographies.
 
 <!-- ## Thoughts
 ### Zotero Reference Management
