@@ -43,6 +43,9 @@ MikTeX enables you to compile the [str-templates](templates) and compile your mo
 
 MikTeX ensures that you don't download thousands of bytes of packages you will never use in your lifetime.
 It supports on-the-fly download and installation of packages that are used within TeX documents that you run.
+To ensure that MikTeX does not bother you with install prompts every time a missing package is detected, please switch the `Install missing packages on-the-fly` dropdown list to `Yes` during the installation process, as shown here:
+
+![Screenshot](img/miktex-screencap.PNG)
 
 Install MikTeX here: [Official Site](https://miktex.org/)
 
