@@ -31,7 +31,7 @@ Git SCM is naturally supported by [Visual Studio Code](#visual-studio-code), whi
 
 A requirement for the workflow is enabling symbolic links, which is disabled by default.
 During the installation process remember to check the `Enable symbolic links` checkbox, as shown here:
-![Screenshot](/img/git-screencap.png)
+![Screenshot](/img/git-screencap.PNG)
 
 Install Git SCM here: [Official Site](https://git-scm.com/)
 
