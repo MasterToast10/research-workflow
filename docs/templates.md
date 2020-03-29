@@ -2,7 +2,7 @@
 The LaTeX templates are provided in the [str-templates repository](https://github.com/MasterToast10/str-templates)
 ## Forkable GitHub Repository 
 There is also a Forkable GitHub Repository that is ready to be used as a template and optimized for use within the workflow.
-First, [create a free GitHub Account](https://github.com/join) and then simply [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from [this repository](https://github.com/MasterToast10/str-templates-forkable) and [clone it into your computer via VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository)).
+First, [create a free GitHub Account](https://github.com/join) and then simply [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from [this repository](https://github.com/MasterToast10/str-templates-forkable) and [clone it into your computer via VS Code](https://code.visualstudio.com/docs/editor/versioncontrol#_cloning-a-repository).
 ## First Run with MikTeX on Visual Studio Code
 Before you experiment with the content in your cloned repository, you must first initialize MikTeX by making sure that [MikTeX Console is running](https://miktex.org/howto/miktex-console) and compiling the `research_title-journal.tex` and `research_title-traditional.tex` files on Visual Studio Code by [opening](https://code.visualstudio.com/Docs/editor/editingevolved) and pressing <kbd>Ctrl</kbd>+<kbd>S</kbd> on each file.
 ## Traditional Paper
