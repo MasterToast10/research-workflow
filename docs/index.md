@@ -27,18 +27,26 @@ During this time, the team may also add new sources or insights on the reference
 ### Collaborative Content Management
 Using GitHub, progress and relevant changes can be stored in the team repository, forked from the [Forkable GitHub Repository](templates/#forkable-github-repository).
 
-Non-LaTeX information such as the data gathered (e.g. spreadsheets), photo documentation, or important insights may be stored on the team repository.
+Non-LaTeX information such as the photo documentation or important insights may be stored on the team repository.
+Data gathered (e.g. spreadsheets) can be stored in [Google Sheets](https://sheets.google.com), with its own version control system.
+These spreadsheets, through the use of Formatted Paste with [LaTeX Utilites](installation/#latex-utilities-by-tecosaur) can be easily integrated into the LaTeX Documents.
 Progress on the Research Project itself can be tracked via GitHub, with comment and issue threads.
-Project Boards can be set up for each logical division of the Research Project, noting the progress of each issue.
+[Project Boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) can be set up for each logical division of the Research Project, noting the progress of each issue.
+These Project Boards can double as the planning calendar, removing the need for making a physical copy of the Planning Calendar.
 
-The structure of the repository tree will be as follows: one master branch (for the most publishable output), and one developmental branch for each team member (the research teacher and adviser are also considered team members).
+Research Teachers and Advisers can also watch their team's repository, removing the need to produce a Project Monitoring Documents such as Weekly Accomplishment Reports (WARs).
+Peer rating is still advised however, as not everything accomplished in the research is done on a computer.
+
+The structure of the repository tree will be as follows: one master branch (for the most publishable output), and one developmental branch for each team member (the research teacher and adviser are also considered team members) with the naming format `member_name`.
+
 In each developmental branch, the respective team member may make unlimited changes to the files and [commits](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) to the branch.
+The team member may also make their own sub-branches to organize their developmental branch with the naming format `member_name-subbranchname`.
 After making changes, the team member may make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 When a team member begins a pull request, discussions may ensue on why said changes are necessary.
 Other members can comment on the changes as well as add commits to revise them.
 
-The GitHub Repository can also double as a daily journal, since everything is recorded with a timestamp.
+The GitHub Repository can also double as a daily journal, since important events such as breakthroughs in the research are recorded with a timestamp.
 ### Content Writing
 Using LaTeX, the team can write without regard for the format, as the template ensures that the papers will always follow the format.
 The combination of Zotero and LaTeX produces automatic citations and bibliography, removing the need to copy and paste.
