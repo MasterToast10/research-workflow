@@ -111,11 +111,14 @@
         <li class="first-level active"><a href="#the-latex-templates">The LaTeX Templates</a></li>
             <li class="second-level"><a href="#forkable-github-repository">Forkable GitHub Repository</a></li>
                 
-            <li class="second-level"><a href="#first-run-with-miktex-on-visual-studio-code">First Run with MikTeX on Visual Studio Code</a></li>
-                
+                <li class="third-level"><a href="#forking-the-repository">Forking the repository</a></li>
+                <li class="third-level"><a href="#first-run">First Run</a></li>
+                <li class="third-level"><a href="#first-commit-and-push">First Commit and Push</a></li>
             <li class="second-level"><a href="#traditional-paper">Traditional Paper</a></li>
                 
             <li class="second-level"><a href="#journal-article">Journal Article</a></li>
+                
+            <li class="second-level"><a href="#known-problems">Known Problems</a></li>
                 
     </ul>
 </div></div>
@@ -125,13 +128,38 @@
 <p>The LaTeX templates are provided in the <a href="https://github.com/MasterToast10/str-templates">str-templates repository</a></p>
 <h2 id="forkable-github-repository">Forkable GitHub Repository</h2>
 <p>There is also a Forkable GitHub Repository that is ready to be used as a template and optimized for use within the workflow.
-Whenever the str-templates repository is updated, the template files in the forked repository can be updated using <a href="https://git-scm.com/docs/git-submodule">submodule update</a>.
-To use the Forkable GitHub Repository, <a href="https://github.com/join">create a free GitHub Account</a> and then simply <a href="https://help.github.com/en/github/getting-started-with-github/fork-a-repo">fork</a> from <a href="https://github.com/MasterToast10/str-templates-forkable">this repository</a>, <a href="https://help.github.com/en/github/administering-a-repository/renaming-a-repository">rename your fork based on your research title (e.g. <code>research_title</code>)</a>, and then <a href="https://code.tutsplus.com/tutorials/git-on-windows-for-newbs--net-25847">clone it into your computer via Git GUI</a>.</p>
-<p>The following images show how the typical clone prompt will look like:</p>
+Whenever the str-templates repository is updated, the template files in the forked repository can be updated using <a href="https://git-scm.com/docs/git-submodule">submodule update</a>.</p>
+<h3 id="forking-the-repository">Forking the repository</h3>
+<p>To use the Forkable GitHub Repository, <a href="https://github.com/join">create a free GitHub Account</a> and then simply <a href="https://help.github.com/en/github/getting-started-with-github/fork-a-repo">fork</a> from <a href="https://github.com/MasterToast10/str-templates-forkable">this repository</a> and <a href="https://help.github.com/en/github/administering-a-repository/renaming-a-repository">rename your fork based on your research title (e.g. <code>research_title</code>)</a>.</p>
+<h3 id="first-run">First Run</h3>
+<p>To use the templates, you must <a href="https://code.tutsplus.com/tutorials/git-on-windows-for-newbs--net-25847">clone the fork into your computer via Git GUI</a>.
+The following images show how the typical clone prompt will look like:</p>
 <p><img alt="Screenshot" src="../img/git_intro-screencap.PNG" /></p>
 <p><img alt="Screenshot" src="../img/git_clone-screencap.PNG" /></p>
-<h2 id="first-run-with-miktex-on-visual-studio-code">First Run with MikTeX on Visual Studio Code</h2>
-<p>Before you experiment with the content in your cloned repository, you must first initialize MikTeX by making sure that <a href="https://miktex.org/howto/miktex-console">MikTeX Console is running</a> and compiling the <code>research_title-journal.tex</code> and <code>research_title-traditional.tex</code> files on Visual Studio Code by <a href="https://code.visualstudio.com/Docs/editor/editingevolved">opening</a> and pressing <kbd>Ctrl</kbd>+<kbd>S</kbd> on each file.</p>
+<p>After cloning, rename the folders and files to change <code>research_title</code> into your actual research title.
+After renaming everything, you may now initialize MikTeX.</p>
+<p>To initialize MikTeX, you must first make sure that <a href="https://miktex.org/howto/miktex-console">MikTeX Console is running</a>.
+After making sure that MikTeX is running, you may now open the <code>research_title</code> folder via Visual Studio Code.
+Opening a folder is an option on the Welcome page (under the Start section) of Visual Studio Code, as shown here:</p>
+<p><img alt="Screenshot" src="../img/vscode_welcome-screencap.PNG" /></p>
+<p>After opening the folder, a navigation bar will appear showing all the files in the folder.
+Make sure that what you see in the following image is similar to what you see in Visual Studio Code:</p>
+<p><img alt="Screenshot" src="../img/vscode_opened-screencap.PNG" /></p>
+<p><a href="(https://code.visualstudio.com/Docs/editor/editingevolved)">Open</a> <code>research_title-journal.tex</code> and then press <kbd>Ctrl</kbd>+<kbd>S</kbd> to begin building the file.
+A progress bar will appear.
+<strong>Note: You need an Internet connection for the first compilation to initialize MikTeX.</strong>
+This is what your window should look like:</p>
+<p><img alt="Screenshot" src="../img/vscode_building-screencap.PNG" /></p>
+<p>To use text wrapping, press <kbd>Alt</kbd>+<kbd>Z</kbd>. 
+To preview the PDF file produced, click the Preview button on the upper right corner of the window or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>.
+Using these commands will lead to a workspace that looks like this:</p>
+<p><img alt="Screenshot" src="../img/vscode_typical-screeencap.PNG" /></p>
+<p>Do the same process for <code>research_title-traditional.tex</code> to initialize MikTeX for the Traditional Paper.
+Your workspace will now look similar to this:</p>
+<p><img alt="Screenshot" src="../img/vscode_atypical-screeencap.PNG" /></p>
+<h3 id="first-commit-and-push">First Commit and Push</h3>
+<p>After performing the renaming and the initial runs, Git will automatically detect changes.
+Use Visual Studio Code to <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_commit">commit your changes</a> and <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_git-status-bar-actions">push them to your GitHub repository</a>.</p>
 <h2 id="traditional-paper">Traditional Paper</h2>
 <p>The Traditional Paper Template provides almost every macro required to write a properly formatted and complete paper, as well as writing tips from various sources. 
 Simply follow and delete each <code>TODO</code> comment in the file, filling in the content sections.
@@ -142,7 +170,10 @@ Once all the highlighted comments are removed, your paper is complete.</p>
 Use the information in the Traditional Paper to produce an abridged version of your Traditional Paper that fits in seven pages.
 The process is the same, simply follow and delete each <code>TODO</code> comment in the file, filling in the content sections.
 You may also add <code>TODO</code> and <code>FIXME</code> comments in the file to take note of tasks in writing.
-Once all the highlighted comments are removed, your article is complete.</p></div>
+Once all the highlighted comments are removed, your article is complete.</p>
+<h2 id="known-problems">Known Problems</h2>
+<p>Uppercasing is incompatible with the <code>biocon</code> package, therefore should you use scientific names in the journal article running head or traditional paper titles, you must type them out manually.
+Alternatively, for the journal article running head, you may type out the common name instead.</p></div>
         
         
     </div>
