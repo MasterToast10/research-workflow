@@ -28,7 +28,7 @@ During this time, the team may also add new sources or insights on the reference
 Using GitHub, progress and relevant changes can be stored in the team repository, forked from the [Forkable GitHub Repository](templates/#forkable-github-repository).
 
 Non-LaTeX information such as the photo documentation or important insights may be stored on the team repository.
-Data gathered (e.g. spreadsheets) can be stored in [Google Sheets](https://sheets.google.com), with its own version control system.
+Data gathered (e.g. spreadsheets) can be stored in [Google Sheets](https://sheets.google.com), with its own [version control system](https://support.google.com/docs/answer/190843).
 These spreadsheets, through the use of Formatted Paste with [LaTeX Utilites](installation/#latex-utilities-by-tecosaur) can be easily integrated into the LaTeX Documents.
 Progress on the Research Project itself can be tracked via GitHub, with comment and issue threads.
 [Project Boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) can be set up for each logical division of the Research Project, noting the progress of each issue.
