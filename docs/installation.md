@@ -58,6 +58,8 @@ A comprehensive tutorial is available here: [LaTeX for Beginners](http://www.doc
 
 Install Zotero here: [Official Site](https://www.zotero.org/)
 
+Install the Zotero browser connector here: [Official Site](https://www.zotero.org/download/connectors)
+
 A comprehensive tutorial for Zotero is available here: [Zotero User Guide](https://www.zotero.org/static/download/zotero_user_guide.pdf)
 
 Install Better BibTeX here (comes with installation instructions): [Official Site](https://retorque.re/zotero-better-bibtex/)
@@ -66,6 +68,12 @@ A brief tutorial for Better BibTeX is available here: [Referencing, Citing, and 
 
 ### Bibliography Management
 Zotero manages all your references, including publication information as well as the digital copies and notes you have on each reference.
+#### One-click Reference Storage
+Just use the Zotero browser connector to automatically store your references from Google Scholar and other official sites.
+Examples are shown here on [this webpage](https://uark.libguides.com/zotero/AddCitations).
+**Do note however that Zotero connector works best with Google Scholar and storing references directly from an official article-hosting site works only about 75% of the time. 
+You may [add the reference by identifier as fallback](https://www.zotero.org/support/adding_items_to_zotero#add_item_by_identifier). 
+If all else fails, you may [manually add or edit your references yourself](https://www.zotero.org/support/adding_items_to_zotero#manually_adding_items).**
 #### Online Hosting
 Zotero provides online hosting to your libraries for free.
 You can share your online libraries with other users of the network, thus making collaboration much easier, with shared references between team members.
