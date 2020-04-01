@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.8)  1 APR 2020 05:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.8)  1 APR 2020 09:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -807,19 +807,18 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@Q@D@counter=\count332
 )
 \c@AGg@counter=\count333
-\c@Bsname@counter=\count334
  (c:/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx.sty (c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2020-02-25 L3 programming layer (loader) 
  (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count335
+\l__kernel_color_stack_int=\count334
 \l__pdf_internal_box=\box66
 )) (c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-25 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count336
-\g__xparse_grabber_int=\count337
-\l__xparse_m_args_int=\count338
-\l__xparse_v_nesting_int=\count339
+\l__xparse_current_arg_int=\count335
+\g__xparse_grabber_int=\count336
+\l__xparse_m_args_int=\count337
+\l__xparse_v_nesting_int=\count338
 )
 Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
  (c:/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -827,27 +826,27 @@ Package: l3keys2e 2020-02-25 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box67
 \l__siunitx_tmp_dim=\dimen324
-\l__siunitx_tmp_int=\count340
-\l__siunitx_number_mantissa_length_int=\count341
-\l__siunitx_number_uncert_length_int=\count342
-\l__siunitx_round_int=\count343
-\l__siunitx_process_decimal_int=\count344
-\l__siunitx_process_uncertainty_int=\count345
-\l__siunitx_process_fixed_int=\count346
-\l__siunitx_process_integer_min_int=\count347
-\l__siunitx_process_precision_int=\count348
-\l__siunitx_group_min_int=\count349
+\l__siunitx_tmp_int=\count339
+\l__siunitx_number_mantissa_length_int=\count340
+\l__siunitx_number_uncert_length_int=\count341
+\l__siunitx_round_int=\count342
+\l__siunitx_process_decimal_int=\count343
+\l__siunitx_process_uncertainty_int=\count344
+\l__siunitx_process_fixed_int=\count345
+\l__siunitx_process_integer_min_int=\count346
+\l__siunitx_process_precision_int=\count347
+\l__siunitx_group_min_int=\count348
 \l__siunitx_angle_marker_box=\box68
 \l__siunitx_angle_unit_box=\box69
 \l__siunitx_angle_marker_dim=\dimen325
 \l__siunitx_angle_unit_dim=\dimen326
-\l__siunitx_unit_int=\count350
-\l__siunitx_unit_denominator_int=\count351
-\l__siunitx_unit_numerator_int=\count352
-\l__siunitx_unit_prefix_int=\count353
-\l__siunitx_unit_prefix_base_int=\count354
-\l__siunitx_unit_prefix_gram_int=\count355
-\l__siunitx_number_product_int=\count356
+\l__siunitx_unit_int=\count349
+\l__siunitx_unit_denominator_int=\count350
+\l__siunitx_unit_numerator_int=\count351
+\l__siunitx_unit_prefix_int=\count352
+\l__siunitx_unit_prefix_base_int=\count353
+\l__siunitx_unit_prefix_gram_int=\count354
+\l__siunitx_number_product_int=\count355
 \c__siunitx_one_fill_skip=\skip82
 \l__siunitx_table_unit_align_skip=\skip83
 \l__siunitx_table_exponent_dim=\dimen327
@@ -875,51 +874,51 @@ File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
  (c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count357
+\lrq@indent=\count356
  (c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count358
-\c@listtotal=\count359
-\c@listcount=\count360
-\c@liststart=\count361
-\c@liststop=\count362
-\c@citecount=\count363
-\c@citetotal=\count364
-\c@multicitecount=\count365
-\c@multicitetotal=\count366
-\c@instcount=\count367
-\c@maxnames=\count368
-\c@minnames=\count369
-\c@maxitems=\count370
-\c@minitems=\count371
-\c@citecounter=\count372
-\c@maxcitecounter=\count373
-\c@savedcitecounter=\count374
-\c@uniquelist=\count375
-\c@uniquename=\count376
-\c@refsection=\count377
-\c@refsegment=\count378
-\c@maxextratitle=\count379
-\c@maxextratitleyear=\count380
-\c@maxextraname=\count381
-\c@maxextradate=\count382
-\c@maxextraalpha=\count383
-\c@abbrvpenalty=\count384
-\c@highnamepenalty=\count385
-\c@lownamepenalty=\count386
-\c@maxparens=\count387
-\c@parenlevel=\count388
-\blx@tempcnta=\count389
-\blx@tempcntb=\count390
-\blx@tempcntc=\count391
-\blx@maxsection=\count392
-\blx@maxsegment@0=\count393
-\blx@notetype=\count394
-\blx@parenlevel@text=\count395
-\blx@parenlevel@foot=\count396
-\blx@sectionciteorder@0=\count397
-\blx@entrysetcounter=\count398
+\c@tabx@nest=\count357
+\c@listtotal=\count358
+\c@listcount=\count359
+\c@liststart=\count360
+\c@liststop=\count361
+\c@citecount=\count362
+\c@citetotal=\count363
+\c@multicitecount=\count364
+\c@multicitetotal=\count365
+\c@instcount=\count366
+\c@maxnames=\count367
+\c@minnames=\count368
+\c@maxitems=\count369
+\c@minitems=\count370
+\c@citecounter=\count371
+\c@maxcitecounter=\count372
+\c@savedcitecounter=\count373
+\c@uniquelist=\count374
+\c@uniquename=\count375
+\c@refsection=\count376
+\c@refsegment=\count377
+\c@maxextratitle=\count378
+\c@maxextratitleyear=\count379
+\c@maxextraname=\count380
+\c@maxextradate=\count381
+\c@maxextraalpha=\count382
+\c@abbrvpenalty=\count383
+\c@highnamepenalty=\count384
+\c@lownamepenalty=\count385
+\c@maxparens=\count386
+\c@parenlevel=\count387
+\blx@tempcnta=\count388
+\blx@tempcntb=\count389
+\blx@tempcntc=\count390
+\blx@maxsection=\count391
+\blx@maxsegment@0=\count392
+\blx@notetype=\count393
+\blx@parenlevel@text=\count394
+\blx@parenlevel@foot=\count395
+\blx@sectionciteorder@0=\count396
+\blx@entrysetcounter=\count397
 \labelnumberwidth=\skip86
 \labelalphawidth=\skip87
 \biblabelsep=\skip88
@@ -931,9 +930,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read5
 \blx@bcfout=\write4
 \blx@langwohyphens=\language85
-\c@mincomprange=\count399
-\c@maxcomprange=\count400
-\c@mincompwidth=\count401
+\c@mincomprange=\count398
+\c@maxcomprange=\count399
+\c@mincompwidth=\count400
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -946,86 +945,86 @@ File: apa.dbx 2020/02/22 v9.6 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count402
-\c@savedafterword=\count403
-\c@annotator=\count404
-\c@savedannotator=\count405
-\c@author=\count406
-\c@savedauthor=\count407
-\c@bookauthor=\count408
-\c@savedbookauthor=\count409
-\c@commentator=\count410
-\c@savedcommentator=\count411
-\c@editor=\count412
-\c@savededitor=\count413
-\c@editora=\count414
-\c@savededitora=\count415
-\c@editorb=\count416
-\c@savededitorb=\count417
-\c@editorc=\count418
-\c@savededitorc=\count419
-\c@foreword=\count420
-\c@savedforeword=\count421
-\c@holder=\count422
-\c@savedholder=\count423
-\c@introduction=\count424
-\c@savedintroduction=\count425
-\c@namea=\count426
-\c@savednamea=\count427
-\c@nameb=\count428
-\c@savednameb=\count429
-\c@namec=\count430
-\c@savednamec=\count431
-\c@translator=\count432
-\c@savedtranslator=\count433
-\c@shortauthor=\count434
-\c@savedshortauthor=\count435
-\c@shorteditor=\count436
-\c@savedshorteditor=\count437
-\c@groupauthor=\count438
-\c@savedgroupauthor=\count439
-\c@narrator=\count440
-\c@savednarrator=\count441
-\c@execproducer=\count442
-\c@savedexecproducer=\count443
-\c@execdirector=\count444
-\c@savedexecdirector=\count445
-\c@with=\count446
-\c@savedwith=\count447
-\c@labelname=\count448
-\c@savedlabelname=\count449
-\c@institution=\count450
-\c@savedinstitution=\count451
-\c@lista=\count452
-\c@savedlista=\count453
-\c@listb=\count454
-\c@savedlistb=\count455
-\c@listc=\count456
-\c@savedlistc=\count457
-\c@listd=\count458
-\c@savedlistd=\count459
-\c@liste=\count460
-\c@savedliste=\count461
-\c@listf=\count462
-\c@savedlistf=\count463
-\c@location=\count464
-\c@savedlocation=\count465
-\c@organization=\count466
-\c@savedorganization=\count467
-\c@origlocation=\count468
-\c@savedoriglocation=\count469
-\c@origpublisher=\count470
-\c@savedorigpublisher=\count471
-\c@publisher=\count472
-\c@savedpublisher=\count473
-\c@language=\count474
-\c@savedlanguage=\count475
-\c@origlanguage=\count476
-\c@savedoriglanguage=\count477
-\c@citation=\count478
-\c@savedcitation=\count479
-\c@pageref=\count480
-\c@savedpageref=\count481
+\c@afterword=\count401
+\c@savedafterword=\count402
+\c@annotator=\count403
+\c@savedannotator=\count404
+\c@author=\count405
+\c@savedauthor=\count406
+\c@bookauthor=\count407
+\c@savedbookauthor=\count408
+\c@commentator=\count409
+\c@savedcommentator=\count410
+\c@editor=\count411
+\c@savededitor=\count412
+\c@editora=\count413
+\c@savededitora=\count414
+\c@editorb=\count415
+\c@savededitorb=\count416
+\c@editorc=\count417
+\c@savededitorc=\count418
+\c@foreword=\count419
+\c@savedforeword=\count420
+\c@holder=\count421
+\c@savedholder=\count422
+\c@introduction=\count423
+\c@savedintroduction=\count424
+\c@namea=\count425
+\c@savednamea=\count426
+\c@nameb=\count427
+\c@savednameb=\count428
+\c@namec=\count429
+\c@savednamec=\count430
+\c@translator=\count431
+\c@savedtranslator=\count432
+\c@shortauthor=\count433
+\c@savedshortauthor=\count434
+\c@shorteditor=\count435
+\c@savedshorteditor=\count436
+\c@groupauthor=\count437
+\c@savedgroupauthor=\count438
+\c@narrator=\count439
+\c@savednarrator=\count440
+\c@execproducer=\count441
+\c@savedexecproducer=\count442
+\c@execdirector=\count443
+\c@savedexecdirector=\count444
+\c@with=\count445
+\c@savedwith=\count446
+\c@labelname=\count447
+\c@savedlabelname=\count448
+\c@institution=\count449
+\c@savedinstitution=\count450
+\c@lista=\count451
+\c@savedlista=\count452
+\c@listb=\count453
+\c@savedlistb=\count454
+\c@listc=\count455
+\c@savedlistc=\count456
+\c@listd=\count457
+\c@savedlistd=\count458
+\c@liste=\count459
+\c@savedliste=\count460
+\c@listf=\count461
+\c@savedlistf=\count462
+\c@location=\count463
+\c@savedlocation=\count464
+\c@organization=\count465
+\c@savedorganization=\count466
+\c@origlocation=\count467
+\c@savedoriglocation=\count468
+\c@origpublisher=\count469
+\c@savedorigpublisher=\count470
+\c@publisher=\count471
+\c@savedpublisher=\count472
+\c@language=\count473
+\c@savedlanguage=\count474
+\c@origlanguage=\count475
+\c@savedoriglanguage=\count476
+\c@citation=\count477
+\c@savedcitation=\count478
+\c@pageref=\count479
+\c@savedpageref=\count480
 \shorthandwidth=\skip94
 \shortjournalwidth=\skip95
 \shortserieswidth=\skip96
@@ -1049,19 +1048,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count482
-\c@textcitetotal=\count483
-\c@textcitemaxnames=\count484
-\c@biburlbigbreakpenalty=\count485
-\c@biburlbreakpenalty=\count486
-\c@biburlnumpenalty=\count487
-\c@biburlucpenalty=\count488
-\c@biburllcpenalty=\count489
+\c@textcitecount=\count481
+\c@textcitetotal=\count482
+\c@textcitemaxnames=\count483
+\c@biburlbigbreakpenalty=\count484
+\c@biburlbreakpenalty=\count485
+\c@biburlnumpenalty=\count486
+\c@biburlucpenalty=\count487
+\c@biburllcpenalty=\count488
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count490
+\c@smartand=\count489
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -1071,8 +1070,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count491
-\c@bbx:relatedtotal=\count492
+\c@bbx:relatedcount=\count490
+\c@bbx:relatedtotal=\count491
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -1107,52 +1106,52 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.aux)
 \openout1 = `test_document-journal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 65.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 65.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 64.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 65.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 65.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 65.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 64.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-\c@mv@tabular=\count493
-\c@mv@boldtabular=\count494
-LaTeX Info: Redefining \microtypecontext on input line 65.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+\c@mv@tabular=\count492
+\c@mv@boldtabular=\count493
+LaTeX Info: Redefining \microtypecontext on input line 64.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 65.
+LaTeX Info: Redefining \showhyphens on input line 64.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1195,16 +1194,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count495
+\scratchcounter=\count494
 \scratchdimen=\dimen336
 \scratchbox=\box74
-\nofMPsegments=\count496
-\nofMParguments=\count497
+\nofMPsegments=\count495
+\nofMParguments=\count496
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count498
+\MPscratchCnt=\count497
 \MPscratchDim=\dimen337
-\MPnumerator=\count499
-\makeMPintoPDFobject=\count500
+\MPnumerator=\count498
+\makeMPintoPDFobject=\count499
 \everyMPtoPDFconversion=\toks56
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1218,10 +1217,10 @@ Package grfext Info: Graphics extension search list:
  (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 65.
+LaTeX Info: Redefining \selectfont on input line 64.
  ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (c:/texlive/2019/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1229,11 +1228,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count501
+\c@section@level=\count500
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
  (c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.out) (c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.out)
 \@outlinefile=\write5
 \openout5 = `test_document-journal.out'.
@@ -1279,95 +1278,95 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'test_document-journal.bbl' found.
  (c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.bbl)
-Package biblatex Info: Reference section=0 on input line 65.
-Package biblatex Info: Reference segment=0 on input line 65.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 65.
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 65.
+(Font)              scaled to size 10.0pt on input line 64.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 65.
+(Font)              scaled to size 7.3pt on input line 64.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 65.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 65.
+(Font)              scaled to size 5.5pt on input line 64.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 65.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 65.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 65.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 65.
+(Font)              scaled to size 8.99994pt on input line 64.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 65.
+(Font)              scaled to size 6.56995pt on input line 64.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 65.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 65.
+(Font)              scaled to size 4.94997pt on input line 64.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 64.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 65.
+(Font)              scaled to size 10.0pt on input line 64.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.3pt on input line 65.
+(Font)              scaled to size 7.3pt on input line 64.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.5pt on input line 65.
+(Font)              scaled to size 5.5pt on input line 64.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 66.
+(Font)              scaled to size 10.0pt on input line 65.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 10.0pt on input line 72.
+(Font)              scaled to size 10.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 7.3pt on input line 94.
+(Font)              scaled to size 7.3pt on input line 93.
  (c:/texlive/2019/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd)
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 105.
+(Font)              scaled to size 9.0pt on input line 104.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 105.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 106.
+(Font)              scaled to size 8.09995pt on input line 105.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 105.
 <bernard-hermant-IhcSHrZXFs4-unsplash.jpg, id=66, 5857.885pt x 3905.59125pt>
 File: bernard-hermant-IhcSHrZXFs4-unsplash.jpg Graphic file (type jpg)
 <use bernard-hermant-IhcSHrZXFs4-unsplash.jpg>
-Package pdftex.def Info: bernard-hermant-IhcSHrZXFs4-unsplash.jpg  used on input line 113.
+Package pdftex.def Info: bernard-hermant-IhcSHrZXFs4-unsplash.jpg  used on input line 112.
 (pdftex.def)             Requested size: 252.35518pt x 168.23512pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 132.
+(Font)              scaled to size 12.0pt on input line 131.
  [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ] [2 <c:/Users/acer P248M/Documents/research-workflow/test_document/bernard-hermant-IhcSHrZXFs4-unsplash.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `test_document-journal.out' has not changed.
 (rerunfilecheck)             Checksum: 9AC88CB0A06452C288A2724305EC602E;796.
 Package logreq Info: Writing requests to 'test_document-journal.run.xml'.
@@ -1375,10 +1374,10 @@ Package logreq Info: Writing requests to 'test_document-journal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44449 strings out of 480994
- 990844 string characters out of 5916033
- 1956592 words of memory out of 5000000
- 59102 multiletter control sequences out of 15000+600000
+ 44443 strings out of 480994
+ 990750 string characters out of 5916033
+ 1956549 words of memory out of 5000000
+ 59096 multiletter control sequences out of 15000+600000
  599127 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,19n,127p,3484b,4844s stack positions out of 5000i,500n,10000p,200000b,80000s
