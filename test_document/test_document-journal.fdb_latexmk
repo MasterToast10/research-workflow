@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber test_document-journal"] 1585735782 "test_document-journal.bcf" "test_document-journal.bbl" "test_document-journal" 1585736086
-  "test_document-journal.bcf" 1585736083 122921 e37eaadd9c9b4cd86d8b99f8a78bad92 "pdflatex"
+["biber test_document-journal"] 1585735782 "test_document-journal.bcf" "test_document-journal.bbl" "test_document-journal" 1585750788
+  "test_document-journal.bcf" 1585742758 122921 e37eaadd9c9b4cd86d8b99f8a78bad92 "pdflatex"
   "test_document.bib" 1585733860 10689 1b5c2d9ea726333400f8711eed28b711 ""
   (generated)
   "test_document-journal.bbl"
   "test_document-journal.blg"
-["pdflatex"] 1585736079 "c:/Users/acer P248M/Documents/research-workflow/test_document/test_document-journal.tex" "c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.pdf" "test_document-journal" 1585736086
+["pdflatex"] 1585742754 "c:/Users/acer P248M/Documents/research-workflow/test_document/test_document-journal.tex" "c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.pdf" "test_document-journal" 1585750788
   "bernard-hermant-IhcSHrZXFs4-unsplash.jpg" 1584809261 2074839 40b36b1c5068c64961ba7ad07b858be0 ""
-  "c:/Users/acer P248M/Documents/research-workflow/test_document/test_document-journal.tex" 1585736075 5261 62db483f7bf8c640384103bc9fd9c6b0 ""
+  "c:/Users/acer P248M/Documents/research-workflow/test_document/test_document-journal.tex" 1585750786 5153 f1f375cd674006fd1c6f541a26953683 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1583684388 2880 847ca622ad468c3dafba6a3f9d89a636 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1583684388 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1583699038 3124 3813fd4c981d99822890a2861b0d274c ""
@@ -281,19 +281,19 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1583700343 4850785 be240f94697c21bedf0eb948641e15bb ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1583700531 8274592 3ef9cf3f4c2714ceeab16cfea156945e ""
   "c:/texlive/2019/texmf.cnf" 1583700155 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.aux" 1585736083 5048 fc0cc16164021a4f836cae77c120077c ""
+  "c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.aux" 1585742758 5048 fc0cc16164021a4f836cae77c120077c ""
   "strrespaper-journ.cls" 1585735135 6808 9c512abb19bb7894b057cc54ff3c7fa9 ""
-  "test_document-journal.aux" 1585736083 5048 fc0cc16164021a4f836cae77c120077c "pdflatex"
+  "test_document-journal.aux" 1585742758 5048 fc0cc16164021a4f836cae77c120077c "pdflatex"
   "test_document-journal.bbl" 1585735809 20042 ac2df8c62033c9287184550c23697756 "biber test_document-journal"
-  "test_document-journal.out" 1585736083 796 9ac88cb0a06452c288a2724305ec602e "pdflatex"
-  "test_document-journal.run.xml" 1585736083 2549 73f74eae5f68550e0989e9fd2024d531 "pdflatex"
-  "test_document-journal.tex" 1585736075 5261 62db483f7bf8c640384103bc9fd9c6b0 ""
+  "test_document-journal.out" 1585742758 796 9ac88cb0a06452c288a2724305ec602e "pdflatex"
+  "test_document-journal.run.xml" 1585742758 2549 73f74eae5f68550e0989e9fd2024d531 "pdflatex"
+  "test_document-journal.tex" 1585750786 5153 f1f375cd674006fd1c6f541a26953683 ""
   (generated)
-  "test_document-journal.run.xml"
-  "test_document-journal.out"
   "c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.pdf"
-  "test_document-journal.bcf"
-  "test_document-journal.pdf"
   "c:\Users\acer P248M\Documents\research-workflow\test_document/test_document-journal.log"
   "test_document-journal.log"
+  "test_document-journal.pdf"
+  "test_document-journal.bcf"
+  "test_document-journal.run.xml"
   "test_document-journal.aux"
+  "test_document-journal.out"
