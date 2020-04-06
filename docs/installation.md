@@ -9,6 +9,8 @@ Symlinks are disabled by default, so you should either turn on [Developer Mode o
 ## Automatic* Download and Install
 ***Better BibTeX and the Zotero browser connector should be installed manually**
 
+Download the Installer here: [SourceForge](https://sourceforge.net/projects/researchworkflowpackage/files/)
+
 ### Perl
 Strawberry Perl will install itself first. 
 Simply stick to the defaults and the procedure will be smooth.
