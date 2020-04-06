@@ -31,7 +31,9 @@ During the installation process remember to check the `Enable symbolic links` ch
 
 ### MikTeX
 MikTeX will install itself after.
-Simply stick to the defaults and the procedure will be smooth.
+To ensure that MikTeX does not bother you with install prompts every time a missing package is detected, please switch the `Install missing packages on-the-fly` dropdown list to `Yes` during the installation process, as shown here:
+
+![Screenshot](img/miktex-screencap.PNG)
 
 ### Zotero
 Zotero will install itself after.
