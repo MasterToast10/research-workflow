@@ -4,5 +4,8 @@ theme:
   custom_dir: 'cinder'
 nav:
   - Home: index.md
-  - Installation: installation.md
+  - Applications: applications.md
+  - Installation: 
+    - Packaged Installation: installation.md
+    - Manual Downloads: man_downloads.md
   - Templates: templates.md

@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Templates - Research Workflow</title>
+    <title>Manual Downloads - Research Workflow</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -75,7 +75,7 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -86,8 +86,8 @@
 
                         
                             
-<li >
-    <a href="../man_downloads/">Manual Downloads</a>
+<li class="active">
+    <a href="./">Manual Downloads</a>
 </li>
 
                         
@@ -96,8 +96,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Templates</a>
+                    <li >
+                        <a href="../templates/">Templates</a>
                     </li>
                 
                 
@@ -110,12 +110,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../man_downloads/">
+                        <a rel="prev" href="../installation/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../templates/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -129,72 +129,42 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#the-latex-templates">The LaTeX Templates</a></li>
-            <li class="second-level"><a href="#forkable-github-repository">Forkable GitHub Repository</a></li>
+        <li class="first-level active"><a href="#manual-downloads">Manual Downloads</a></li>
+            <li class="second-level"><a href="#perl">Perl</a></li>
                 
-                <li class="third-level"><a href="#forking-the-repository">Forking the repository</a></li>
-                <li class="third-level"><a href="#first-run">First Run</a></li>
-                <li class="third-level"><a href="#first-commit-and-push">First Commit and Push</a></li>
-            <li class="second-level"><a href="#traditional-paper">Traditional Paper</a></li>
+            <li class="second-level"><a href="#visual-studio-code">Visual Studio Code</a></li>
                 
-            <li class="second-level"><a href="#journal-article">Journal Article</a></li>
+            <li class="second-level"><a href="#git-scm">Git SCM</a></li>
                 
-            <li class="second-level"><a href="#known-problems">Known Problems</a></li>
+            <li class="second-level"><a href="#miktex">MikTeX</a></li>
                 
+            <li class="second-level"><a href="#zotero">Zotero</a></li>
+                
+        <li class="first-level "><a href="#optional-software-download">Optional Software Download</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="the-latex-templates">The LaTeX Templates</h1>
-<p>The LaTeX templates are provided in the <a href="https://github.com/MasterToast10/str-templates">str-templates repository</a></p>
-<h2 id="forkable-github-repository">Forkable GitHub Repository</h2>
-<p>There is also a Forkable GitHub Repository that is ready to be used as a template and optimized for use within the workflow.
-Whenever the str-templates repository is updated, the template files in the forked repository can be updated using <a href="https://git-scm.com/docs/git-submodule">submodule update</a>.</p>
-<h3 id="forking-the-repository">Forking the repository</h3>
-<p>To use the Forkable GitHub Repository, <a href="https://github.com/join">create a free GitHub Account</a> and then simply <a href="https://help.github.com/en/github/getting-started-with-github/fork-a-repo">fork</a> from <a href="https://github.com/MasterToast10/str-templates-forkable">this repository</a> and <a href="https://help.github.com/en/github/administering-a-repository/renaming-a-repository">rename your fork based on your research title (e.g. <code>research_title</code>)</a>.</p>
-<h3 id="first-run">First Run</h3>
-<p>To use the templates, you must <a href="https://code.tutsplus.com/tutorials/git-on-windows-for-newbs--net-25847">clone the fork into your computer via Git GUI</a>.
-The following images show how the typical clone prompt will look like:</p>
-<p><img alt="Screenshot" src="../img/git_intro-screencap.PNG" /></p>
-<p><img alt="Screenshot" src="../img/git_clone-screencap.PNG" /></p>
-<p>After cloning, rename the folders and files to change <code>research_title</code> into your actual research title.
-After renaming everything, you may now initialize MikTeX.</p>
-<p>To initialize MikTeX, you must first make sure that <a href="https://miktex.org/howto/miktex-console">MikTeX Console is running</a>.
-After making sure that MikTeX is running, you may now open the <code>research_title</code> folder via Visual Studio Code.
-Opening a folder is an option on the Welcome page (under the Start section) of Visual Studio Code, as shown here:</p>
-<p><img alt="Screenshot" src="../img/vscode_welcome-screencap.PNG" /></p>
-<p>After opening the folder, a navigation bar will appear showing all the files in the folder.
-Make sure that what you see in the following image is similar to what you see in Visual Studio Code:</p>
-<p><img alt="Screenshot" src="../img/vscode_opened-screencap.PNG" /></p>
-<p><a href="(https://code.visualstudio.com/Docs/editor/editingevolved)">Open</a> <code>research_title-journal.tex</code> and then press <kbd>Ctrl</kbd>+<kbd>S</kbd> to begin building the file.
-A progress bar will appear.
-<strong>Note: You need an Internet connection for the first compilation to initialize MikTeX.</strong>
-This is what your window should look like:</p>
-<p><img alt="Screenshot" src="../img/vscode_building-screencap.PNG" /></p>
-<p>To use text wrapping, press <kbd>Alt</kbd>+<kbd>Z</kbd>. 
-To preview the PDF file produced, click the Preview button on the upper right corner of the window or press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>.
-Using these commands will lead to a workspace that looks like this:</p>
-<p><img alt="Screenshot" src="../img/vscode_typical-screeencap.PNG" /></p>
-<p>Do the same process for <code>research_title-traditional.tex</code> to initialize MikTeX for the Traditional Paper.
-Your workspace will now look similar to this:</p>
-<p><img alt="Screenshot" src="../img/vscode_atypical-screeencap.PNG" /></p>
-<h3 id="first-commit-and-push">First Commit and Push</h3>
-<p>After performing the renaming and the initial runs, Git will automatically detect changes.
-Use Visual Studio Code to <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_commit">commit your changes</a> and <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_git-status-bar-actions">push them to your GitHub repository</a>.</p>
-<h2 id="traditional-paper">Traditional Paper</h2>
-<p>The Traditional Paper Template provides almost every macro required to write a properly formatted and complete paper, as well as writing tips from various sources. 
-Simply follow and delete each <code>TODO</code> comment in the file, filling in the content sections.
-You may add <code>TODO</code> and <code>FIXME</code> comments in the file to take note of tasks in writing.
-Once all the highlighted comments are removed, your paper is complete.</p>
-<h2 id="journal-article">Journal Article</h2>
-<p>Once your Traditional Paper is complete, you may move on to writing your Journal Article.
-Use the information in the Traditional Paper to produce an abridged version of your Traditional Paper that fits in seven pages.
-The process is the same, simply follow and delete each <code>TODO</code> comment in the file, filling in the content sections.
-You may also add <code>TODO</code> and <code>FIXME</code> comments in the file to take note of tasks in writing.
-Once all the highlighted comments are removed, your article is complete.</p>
-<h2 id="known-problems">Known Problems</h2>
-<p>Uppercasing is incompatible with the <code>biocon</code> package, therefore should you use scientific names in the journal article running head or traditional paper titles, you must type them out manually.
-Alternatively, for the journal article running head, you may type out the common name instead.</p></div>
+<h1 id="manual-downloads">Manual Downloads</h1>
+<p>Should you want to download and install the software manually, either because you prefer the inconvenience or want it done your way, the links are provided below:</p>
+<h2 id="perl">Perl</h2>
+<p>Download ActivePerl here: <a href="https://platform.activestate.com/MasterToast10/ActivePerl-5.28-for-str-templates">Personal Project</a></p>
+<p><strong>OR</strong></p>
+<p>Download Strawberry Perl here: <a href="http://strawberryperl.com/">Official Site</a></p>
+<p><strong>Note that you need to install <code>Log::Log4perl</code> and <code>Log::Dispatch::File</code> yourself via <code>CPAN</code> on Strawberry Perl</strong></p>
+<h2 id="visual-studio-code">Visual Studio Code</h2>
+<p>Download Visual Studio Code here: <a href="https://code.visualstudio.com/">Official Site</a></p>
+<p>Download the Visual Studio Code Extensions here: <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop by James Yu</a>, <a href="https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities">LaTeX Utilities by tecosaur</a>, <a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree">Todo Tree by Gruntfuggly</a>, <a href="https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph">Git Graph by mhutchie</a></p>
+<h2 id="git-scm">Git SCM</h2>
+<p>Download Git SCM here: <a href="https://git-scm.com/">Official Site</a></p>
+<h2 id="miktex">MikTeX</h2>
+<p>Download MikTeX here: <a href="https://miktex.org/">Official Site</a></p>
+<h2 id="zotero">Zotero</h2>
+<p>Download Zotero here: <a href="https://www.zotero.org/">Official Site</a></p>
+<p>Download the Zotero browser connector here: <a href="https://www.zotero.org/download/connectors">Official Site</a></p>
+<p>Download Better BibTeX here (comes with installation instructions): <a href="https://retorque.re/zotero-better-bibtex/">Official Site</a></p>
+<h1 id="optional-software-download">Optional Software Download</h1>
+<p>Download LTeX here: <a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex">LTeX by Julian Valentin</a></p></div>
         
         
     </div>

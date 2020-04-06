@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Installation - Research Workflow</title>
+    <title>Packaged Installation - Research Workflow</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -69,8 +69,29 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Installation</a>
+                    <li >
+                        <a href="../applications/">Applications</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">Packaged Installation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../man_downloads/">Manual Downloads</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -89,12 +110,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="..">
+                        <a rel="prev" href="../applications/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../templates/">
+                        <a rel="next" href="../man_downloads/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -109,26 +130,17 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#installation">Installation</a></li>
-            <li class="second-level"><a href="#accounts-required-preliminary">Accounts Required (Preliminary)</a></li>
+            <li class="second-level"><a href="#requirements">Requirements</a></li>
                 
-            <li class="second-level"><a href="#perl">Perl</a></li>
+            <li class="second-level"><a href="#automatic-download-and-install">Automatic* Download and Install</a></li>
                 
-                <li class="third-level"><a href="#activeperl">ActivePerl</a></li>
-                <li class="third-level"><a href="#strawberry-perl">Strawberry Perl</a></li>
-            <li class="second-level"><a href="#git-source-code-management-scm">Git Source Code Management (SCM)</a></li>
+                <li class="third-level"><a href="#perl">Perl</a></li>
+                <li class="third-level"><a href="#visual-studio-code">Visual Studio Code</a></li>
+                <li class="third-level"><a href="#git-source-code-management-scm">Git Source Code Management (SCM)</a></li>
+                <li class="third-level"><a href="#miktex">MikTeX</a></li>
+                <li class="third-level"><a href="#zotero">Zotero</a></li>
+            <li class="second-level"><a href="#optional-software">Optional Software</a></li>
                 
-            <li class="second-level"><a href="#miktex">MikTeX</a></li>
-                
-            <li class="second-level"><a href="#zotero">Zotero</a></li>
-                
-                <li class="third-level"><a href="#bibliography-management">Bibliography Management</a></li>
-                <li class="third-level"><a href="#browser-support">Browser Support</a></li>
-                <li class="third-level"><a href="#citations-via-biblatex">Citations via BibLaTeX</a></li>
-            <li class="second-level"><a href="#visual-studio-code">Visual Studio Code</a></li>
-                
-                <li class="third-level"><a href="#latex-editing">LaTeX Editing</a></li>
-                <li class="third-level"><a href="#task-management">Task Management</a></li>
-                <li class="third-level"><a href="#source-code-management">Source Code Management</a></li>
             <li class="second-level"><a href="#finishing-up">Finishing Up</a></li>
                 
     </ul>
@@ -137,100 +149,43 @@
 
 <h1 id="installation">Installation</h1>
 <p>A complete installation for the workflow requires the following accounts to be created per member and the following software to be installed.</p>
-<h2 id="accounts-required-preliminary">Accounts Required (Preliminary)</h2>
-<ul>
-<li><a href="https://github.com/join">A GitHub Account</a></li>
-<li><a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&amp;flowEntry=SignUp">A Google Account</a></li>
-<li><a href="https://www.zotero.org/user/register">A Zotero Account</a></li>
-</ul>
-<h2 id="perl">Perl</h2>
-<p>Perl is a requirement for builds via <a href="#latex-workshop-by-james-yu">LaTeX Workshop</a>.
-Perl comes with UNIX-base Operating Systems (e.g Linux and Mac OS), however it does not come preinstalled for Windows, thus, you may install either <a href="https://platform.activestate.com/MasterToast10/ActivePerl-5.28-for-str-templates">my personal fork of ActivePerl</a> or <a href="http://strawberryperl.com/">Strawberry Perl</a>.</p>
-<h3 id="activeperl">ActivePerl</h3>
-<p>The fork of ActivePerl is ready-to-use for LaTeX writing, and is <strong>recommended</strong>.
-Simply go to <a href="https://platform.activestate.com/MasterToast10/ActivePerl-5.28-for-str-templates">this site</a>, sign in with your GitHub account and then download and run the installer.</p>
-<h3 id="strawberry-perl">Strawberry Perl</h3>
-<p>Strawberry Perl is for use by <strong>advanced users</strong>.
-Install <a href="http://strawberryperl.com/">Strawberry Perl</a> and then type the following lines in the command line:</p>
-<pre><code>cpan
-notest install Log::Log4perl
-install Log::Dispatch::File
-exit
-</code></pre>
-<p>These are the dependencies for <code>latexindent.pl</code> which formats your <code>.tex</code> files automatically.</p>
-<h2 id="git-source-code-management-scm">Git Source Code Management (SCM)</h2>
-<blockquote>
-<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-<p>&mdash; <cite>https://git-scm.com/</cite></p>
-</blockquote>
-<p>Git SCM eases the collaborative editing process by synchronizing changes across connected devices. </p>
-<p>Git SCM is naturally supported by <a href="#visual-studio-code">Visual Studio Code</a>, which makes staging changes, producing commits and fetching changes in a remote repository easy and quick, <a href="https://code.visualstudio.com/docs/editor/versioncontrol#_vs-code-as-git-editor">accessible with one click</a>.</p>
-<p>A requirement for the workflow is enabling symbolic links, which is disabled by default.
-Turn on <a href="https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development">Developer Mode on Windows</a> and then during the installation process remember to check the <code>Enable symbolic links</code> checkbox, as shown here:</p>
+<h2 id="requirements">Requirements</h2>
+<p>Symlinks are disabled by default, so you should either turn on <a href="https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development">Developer Mode on Windows</a>.</p>
+<p><strong><span style="color:red">If and only if you know what you're doing, you may choose not to turn on Developer Mode and use UAC to enable symlinks for the default user.</span></strong></p>
+<h2 id="automatic-download-and-install">Automatic* Download and Install</h2>
+<p><strong>*Better BibTeX and the Zotero browser connector should be installed manually</strong></p>
+<h3 id="perl">Perl</h3>
+<p>Strawberry Perl will install itself first. 
+Simply stick to the defaults and the procedure will be smooth.</p>
+<h3 id="visual-studio-code">Visual Studio Code</h3>
+<p>Visual Studio Code will install itself after.
+Simply stick to the defaults and the procedure will be smooth.
+Make sure that the <code>Add to PATH</code> option is checked as shown below:</p>
+<p><img alt="Screenshot" src="../img/vscode_installer-screencap.PNG" /></p>
+<h3 id="git-source-code-management-scm">Git Source Code Management (SCM)</h3>
+<p>Git will install itself after.
+A requirement for the workflow is enabling symbolic links, which is disabled by default.
+During the installation process remember to check the <code>Enable symbolic links</code> checkbox, as shown here:</p>
 <p><img alt="Screenshot" src="../img/git-screencap.PNG" /></p>
-<p>Install Git SCM here: <a href="https://git-scm.com/">Official Site</a></p>
-<p>A comprehensive tutorial is available here: <a href="https://git-scm.com/book/en/v2">Pro Git by Scott Chacon and Ben Straub</a></p>
-<h2 id="miktex">MikTeX</h2>
-<p>MikTeX enables you to compile the <a href="templates">str-templates</a> and compile your modified versions, providing PDF output that is ready-to-print and ready-to-publish.</p>
-<p>MikTeX ensures that you don't download thousands of bytes of packages you will never use in your lifetime.
-It supports on-the-fly download and installation of packages that are used within TeX documents that you run.
-To ensure that MikTeX does not bother you with install prompts every time a missing package is detected, please switch the <code>Install missing packages on-the-fly</code> dropdown list to <code>Yes</code> during the installation process, as shown here:</p>
-<p><img alt="Screenshot" src="../img/miktex-screencap.PNG" /></p>
-<p>Install MikTeX here: <a href="https://miktex.org/">Official Site</a></p>
-<p>A comprehensive tutorial is available here: <a href="http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf">LaTeX for Beginners</a></p>
-<h2 id="zotero">Zotero</h2>
-<blockquote>
-<p>Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.</p>
-<p>&mdash; <cite>https://www.zotero.org/</cite></p>
-</blockquote>
-<p>Install Zotero here: <a href="https://www.zotero.org/">Official Site</a></p>
-<p>Install the Zotero browser connector here: <a href="https://www.zotero.org/download/connectors">Official Site</a></p>
-<p>A comprehensive tutorial for Zotero is available here: <a href="https://www.zotero.org/static/download/zotero_user_guide.pdf">Zotero User Guide</a></p>
-<p>Install Better BibTeX here (comes with installation instructions): <a href="https://retorque.re/zotero-better-bibtex/">Official Site</a></p>
-<p>A brief tutorial for Better BibTeX is available here: <a href="http://libguides.rhul.ac.uk/referencing/Zoterolatex">Referencing, Citing, and Structuring Bibliographies</a></p>
-<h3 id="bibliography-management">Bibliography Management</h3>
-<p>Zotero manages all your references, including publication information as well as the digital copies and notes you have on each reference.</p>
-<h4 id="one-click-reference-storage">One-click Reference Storage</h4>
-<p>Just use the Zotero browser connector to automatically store your references from Google Scholar and other official sites.
-Examples are shown here on <a href="https://uark.libguides.com/zotero/AddCitations">this webpage</a>.
-<strong>Do note however that Zotero connector works best with Google Scholar and storing references directly from an official article-hosting site works only about 75% of the time. 
-You may <a href="https://www.zotero.org/support/adding_items_to_zotero#add_item_by_identifier">add the reference by identifier as fallback</a>. 
-If all else fails, you may <a href="https://www.zotero.org/support/adding_items_to_zotero#manually_adding_items">manually add or edit your references yourself</a>.</strong></p>
-<h4 id="online-hosting">Online Hosting</h4>
-<p>Zotero provides online hosting to your libraries for free.
-You can share your online libraries with other users of the network, thus making collaboration much easier, with shared references between team members.</p>
-<h3 id="browser-support">Browser Support</h3>
-<p>Zotero provides extensions for the most common web browsers available which makes collecting reference information quick and easy.</p>
-<h3 id="citations-via-biblatex">Citations via BibLaTeX</h3>
-<p>Zotero can produce <code>.bib</code> files for citations via BibLaTeX. These citations are automatically added to the bibliography of your document.</p>
-<h4 id="better-bibtex-by-retorquere">Better BibTeX by retorquere</h4>
-<p>Better BibTeX optimizes Zotero for producing <code>.bib</code> files, and can update the files automatically should changes be made in the library associated with them.</p>
-<h2 id="visual-studio-code">Visual Studio Code</h2>
-<blockquote>
-<p>Free. Built on open source. Runs everywhere.</p>
-<p>&mdash; <cite>https://code.visualstudio.com/</cite></p>
-</blockquote>
-<p>Install Visual Studio Code here: <a href="https://code.visualstudio.com/">Official Site</a></p>
-<p>A comprehensive tutorial is available here: <a href="https://code.visualstudio.com/docs/getstarted/introvideos">Get Started</a></p>
-<h3 id="latex-editing">LaTeX Editing</h3>
-<p>Visual Studio Code supports LaTeX Editing via the following extensions:</p>
-<h4 id="latex-workshop-by-james-yu"><a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop by James Yu</a></h4>
-<p>LaTeX Workshop provides Build/Compile <code>.tex</code> File on Save as well as:
- - Code Snippets/IntelliSense
- - Code Linting (e.g. highlighted errors and warnings)</p>
-<h4 id="latex-utilities-by-tecosaur"><a href="https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities">LaTeX Utilities by tecosaur</a></h4>
-<p>LaTeX Utilities provides additional functionality to LaTeX Workshop such as:
- - Formatted Pastes (e.g. tabulated data from a spreadsheet into a formatted LaTeX table)
- - Zotero citations (e.g. cited pages)</p>
-<h4 id="ltex-by-julian-valentin"><a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex">LTeX by Julian Valentin</a></h4>
-<p>LTeX uses LanguageTool to provide spelling and grammatical corrections as you type, saving you time for editing typographical errors.
-Do note however that it requires an installation of <a href="https://www.java.com/en/download/">Java 8 or higher</a> and requires other extensions for <a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex-en">English</a> and <a href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex-tl">Tagalog</a> Support.</p>
-<h3 id="task-management">Task Management</h3>
-<h4 id="todo-tree-by-gruntfuggly"><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree">Todo Tree by Gruntfuggly</a></h4>
-<p>Todo Tree outlines the TODO comments in your LaTeX code, providing a platform for tracking the progress of the paper-writing, and making sure that you do not miss out on any details.</p>
-<h3 id="source-code-management">Source Code Management</h3>
-<h4 id="git-graph-by-mhutchie"><a href="https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph">Git Graph by mhutchie</a></h4>
-<p>Git Graph provides a visualization of your git repository, enabling you to track changes and revert them if necessary.</p>
+<h3 id="miktex">MikTeX</h3>
+<p>MikTeX will install itself after.
+Simply stick to the defaults and the procedure will be smooth.</p>
+<h3 id="zotero">Zotero</h3>
+<p>Zotero will install itself after.
+Simply stick to the defaults and the procedure will be smooth.</p>
+<p>You have to install Better BibTeX and the Zotero browser connector manually, and the instructions are included on the README file.
+In case you missed reading the README file, the steps are included here:</p>
+<pre><code>1) Launch Zotero
+2) Go to "Tools &gt; Install Browser Connector"
+3) Install the connector on your regular browser
+4) Go to Zotero again
+5) Go to "Tools &gt; Add-ons"
+6) Click the Settings button and click on "Install Add-on from File"
+7) Select "zotero-better-bibtex-5.2.20.xpi" inside the manual_install folder contained inside the installer folder.
+</code></pre>
+<p>More in-depth instructions are also included <a href="https://retorque.re/zotero-better-bibtex/">here</a> and <a href="https://guides.lib.fsu.edu/zotero/install/connector">here</a>.</p>
+<h2 id="optional-software">Optional Software</h2>
+<p>Optional software is included in the <a href="../man_downloads">Manual Downloads section</a></p>
 <h2 id="finishing-up">Finishing Up</h2>
 <p>When everything is finally installed, restart your computer to register the changes.</p></div>
         

@@ -42,6 +42,11 @@ Make sure to check the Keep Updated box, as shown here:
 
 Export the `.bib` file to the `research_title-journal` folder, or the folder you renamed it to.
 
+## The Other Sections
+You will only edit the Introduction, Results, and Discussion sections in this test.
+You should remove the Demonstration section entirely, and replace the text of the other sections with `\fillertext` if you want.
+You can also use `\lipsum` to add more paragraphs to the text and see how the document looks like with enough content.
+
 ## Editing the Preamble
 The preamble is everything in the code before the `\begin{document}`.
 The first part you will edit is the species name.
@@ -314,10 +319,6 @@ At the end of this section, your Discussion section will look like this:
 		How you behave in school predicts your success in the future \autocite{spenglerHowYouBehave2018}.
 		\textcite{freyHappinessRevolutionEconomics2008}, \textcite{veenhovenConditionsHappiness2013}, and \textcite{veenhovenHappinessRelative1991} state the importance of happiness.
 ```
-
-## The Other Sections
-You may remove the Demonstration section entirely, and replace the text of the other sections with `\fillertext` if you want.
-You can also use `\lipsum` to add more paragraphs to the text and see how the document looks like with enough content.
 
 ## Commit and Push
 After finishing your test document, you may remove the `% TODO` comments.

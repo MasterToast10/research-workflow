@@ -1,6 +1,11 @@
 # Collaborative Research Paper-Writing Workflow
 A workflow for research paper-writing crafted for efficiency.
 
+## Accounts Required (Preliminary)
+ - [A GitHub Account](https://github.com/join)
+ - [A Google Account](https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp)
+ - [A Zotero Account](https://www.zotero.org/user/register)
+
 ## Setup
 Before using the workflow, the necessary software must be installed.
 The necessary software is provided in the [Installation](installation) section.
